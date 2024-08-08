@@ -6,11 +6,17 @@
 
 .name {
   font-size: 20px;
-  text-decoration: underline;
 }
 
 .number {
   font-size: 16px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
 .deleteButton {

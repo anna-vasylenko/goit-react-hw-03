@@ -43,8 +43,8 @@ const ContactForm = ({ addContact }) => {
         <label htmlFor={nameFieldId}>Name</label>
         <Field type="text" name="name" id={nameFieldId} className={s.input} />
         <ErrorMessage name="name" component="span" className={s.message} />
-        <label htmlFor={numberFieldId}>Number</label>
 
+        <label htmlFor={numberFieldId}>Number</label>
         <Field
           type="text"
           name="number"
