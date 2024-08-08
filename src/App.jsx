@@ -36,7 +36,7 @@ function App() {
   );
 
   return (
-    <div>
+    <div className={s.wrapper}>
       <h1 className={s.title}>Phonebook</h1>
       <ContactForm addContact={addContact} />
       <SearchBox onFilter={setFilter} filter={filter} />
