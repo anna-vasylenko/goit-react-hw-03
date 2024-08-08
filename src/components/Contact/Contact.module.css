@@ -1,0 +1,33 @@
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.name {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.number {
+  font-size: 16px;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  right: 15px;
+
+  &:hover {
+    background-color: var(--color-purple);
+  }
+}
