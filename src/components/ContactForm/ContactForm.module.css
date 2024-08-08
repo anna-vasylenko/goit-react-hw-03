@@ -19,6 +19,7 @@
   border-radius: 8px;
   outline: none;
   border: 1px solid black;
+  transition: all var(--animation-cubicBezier);
   &:hover,
   &:focus {
     border: 1px solid var(--color-dark-purple);
@@ -42,4 +43,8 @@
   color: var(--color-white);
   cursor: pointer;
   margin-top: 5px;
+  transition: all var(--animation-cubicBezier);
+  &:hover {
+    background-color: var(--color-purple);
+  }
 }

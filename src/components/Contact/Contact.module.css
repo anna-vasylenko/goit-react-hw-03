@@ -26,6 +26,7 @@
   position: absolute;
   top: 30%;
   right: 15px;
+  transition: all var(--animation-cubicBezier);
 
   &:hover {
     background-color: var(--color-purple);
